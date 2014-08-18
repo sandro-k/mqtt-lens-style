@@ -1,6 +1,5 @@
-
 @import "include";
-@import "boostrap-overwrite";
+
 
 $margin: 4px;
 
@@ -16,9 +15,12 @@ $black: #010101;
 $blue: #7694c6;
 //c1c0c6
 
+html {
+  overflow-y: scroll;
+}
+
 html,
 body {
-  overflow-y: scroll;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -406,15 +408,10 @@ h2 {
 .collapsed-custom {
   z-index: 500;
   position: absolute;
-  //  left: -273px;
-  //  margin-left: -$margin;
-  //  width: 38px;
   padding: 0;
   overflow: hidden;
 
-  //  .helper {
-  //    display: block;
-  //  }
+
   .menu-head-icon {
 
     i {
@@ -422,33 +419,6 @@ h2 {
     }
 
   }
-  //  @media all and (max-width: 600px) {
-  //    width: 0;
-  //  }
-
-  //  .aside {
-  //    padding-right: 0;
-  //  }
-
-  //  @media all and (max-width: 600px) {
-  //    .nav {
-  //      display: none;
-  //    }
-  //  }
-
-  //  h1,{
-  //    display: none;
-  //  }
-  //  .col-xs-6, .col-sm-12, .col-lg-6 {
-  //    visibility: hidden;
-  //  }
-  //  h1.pull-right {
-  //    display: block;
-  //  }
-  //  .col-xs-1, .col-sm-2 {
-  //    width: 32px;
-  //  }
-
 }
 
 .border-dark-grey {

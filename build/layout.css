@@ -5298,9 +5298,11 @@ button.close {
   padding-left: 4px;
   padding-right: 4px; }
 
+html {
+  overflow-y: scroll; }
+
 html,
 body {
-  overflow-y: scroll;
   margin: 0;
   padding: 0;
   height: 100%;

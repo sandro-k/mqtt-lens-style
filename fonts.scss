@@ -2,16 +2,6 @@
 compiled scss will be in the build directory so we need to go up two directories
 */
 
-@font-face {
-  font-family: 'icomoon';
-  src:url('../../fonts/icomoon.eot?ibphbr');
-  src:url('../../fonts/icomoon.eot?#iefixibphbr') format('embedded-opentype'),
-  url('../../fonts/icomoon.woff?ibphbr') format('woff'),
-  url('../../fonts/icomoon.ttf?ibphbr') format('truetype'),
-  url('../../fonts/icomoon.svg?ibphbr#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 [class^="icon-"], [class*=" icon-"] {
   /* Better Font Rendering =========== */
