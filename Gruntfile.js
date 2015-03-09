@@ -9,10 +9,9 @@ module.exports = function (grunt) {
         sass: {
             dist: {                            // Target
                 files: [{
-                    expand: true,
-                    src: ['*.scss'],
-                    dest: 'build',
-                    ext: '.css'
+                    expand: false,
+                    src: ['mqtt-lens-style.scss'],
+                    dest: 'mqtt-lens-style.css'
                 }]
             }
         },
@@ -21,7 +20,7 @@ module.exports = function (grunt) {
         watch: {
             // watch for SCSS files and compile to css
             sass: {
-                files: ['*.scss'],
+                files: ['mqtt-lens-style.scss', 'src/*.scss'],
                 tasks: ['sass'],
                 options: {
                     // use live reload that is build in with grunt watch and use default port
